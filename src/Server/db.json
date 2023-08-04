@@ -1,0 +1,98 @@
+{
+  "contacts": [
+    {
+      "id": "1001",
+      "name": "Neethu Raj",
+      "photo": "https://cdn3d.iconscout.com/3d/premium/thumb/woman-avatar-8183361-6546906.png",
+      "dob": "14/08/1994",
+      "qualification": "MCA",
+      "phone": "9874562137",
+      "email": "Neethu@gmail.com",
+      "houseId": "1001"
+    },
+    {
+      "id": "1002",
+      "name": "Abi K",
+      "photo": "https://cdn3d.iconscout.com/3d/premium/thumb/employee-man-5565728-4715088.png?f=webp",
+      "dob": "19/05/1994",
+      "qualification": "MCA",
+      "phone": "9874567837",
+      "email": "Abi@gmail.com",
+      "houseId": "1002"
+    },
+    {
+      "id": "1003",
+      "name": "Mathew Raj",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ65bAH8u9ZHo5lf5SSKjq0sgsmqFzde-BiYQ&usqp=CAU",
+      "dob": "04/08/1998",
+      "qualification": "BA",
+      "phone": "9874562137",
+      "email": "Mathew@gmail.com",
+      "houseId": "1003"
+    },
+    {
+      "houseId": "1002",
+      "name": "Arjun",
+      "phone": "09874561230",
+      "email": "arjun@gmail.com",
+      "id": "45",
+      "photo": "https://cdn3d.iconscout.com/3d/premium/thumb/man-6530466-5823045.png?f=webp",
+      "dob": "14/05/1990",
+      "qualification": "MCA"
+    },
+    {
+      "houseId": "1002",
+      "id": "12",
+      "name": "Joseph",
+      "photo": "https://cdn3d.iconscout.com/3d/premium/thumb/dreadlocked-man-6528394-5823061.png?f=webp",
+      "dob": "13/9/1995",
+      "qualification": "B.TECH",
+      "phone": "9638527412",
+      "email": "Joseph@gmail.com"
+    },
+    {
+      "houseId": "1002",
+      "id": "5",
+      "name": "Mathew",
+      "phone": "07418529630",
+      "email": "mathew@gmail.com",
+      "photo": "https://cdn3d.iconscout.com/3d/premium/thumb/young-man-5748694-4800737.png?f=webp",
+      "dob": "23/5/1990",
+      "qualification": "B.TECH"
+    },
+    {
+      "houseId": "1002",
+      "id": "60",
+      "name": "vimal",
+      "phone": "07894561230",
+      "email": "vimal@gmail.com",
+      "photo": "https://cdn3d.iconscout.com/3d/premium/thumb/young-man-5748694-4800737.png?f=webp",
+      "dob": "14/05/1990",
+      "qualification": "B.TECH"
+    },
+    {
+      "houseId": "1003",
+      "id": "10",
+      "name": "Rose K Antony",
+      "phone": "7123456789",
+      "email": "Rose@gmail.com",
+      "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXGm7BwCgYmwGZmYdDCh6KRoY0Pu0tNpF8HQ&usqp=CAU",
+      "dob": "23/5/1990",
+      "qualification": "MCA"
+    }
+  ],
+  "house": [
+    {
+      "id": "1001",
+      "name": "ABH Kinderland"
+    },
+    {
+      "id": "1002",
+      "name": "MAC Kinderland"
+    },
+    {
+      "id": "1003",
+      "name": "Micky Kinderland"
+    }
+  ]
+}

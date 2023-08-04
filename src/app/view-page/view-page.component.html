@@ -1,0 +1,50 @@
+<!-- nav -->
+<nav class="navbar bg-success ">
+    <div class="container-fluid">
+        <a class="navbar-brand" routerLink="/">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.JuB1KquM9Prch5-51xuGpgHaF-&pid=Api&P=0&h=180" alt="Logo" width="80" height="60" class="d-inline-block align-text">
+          <b style="font-family: cursive; font-weight: 900;" > &nbsp;KINDERLAND</b>  
+          </a>        
+    </div>
+  </nav>
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1 class="text-center my-4"><i class="fa-solid fa-eye"></i><b> Your Details</b> </h1>
+            <p style="text-align: justify;">Due to high support volume, it may take longer than usual to hear back from our Support Agents. Kinderland offers multiple methods to upload your resume to our houses, including uploading it to job applications as well as displaying it on your profile.  Also upload your resume to your LinkedIn account via Settings for future job applications</p>
+        </div>
+    </div>
+
+    <!-- <pre>
+        {{contact|json}}
+      
+    </pre> -->
+
+    <div class="row">
+        <div class="col mt-5">
+<!-- form -->
+
+<ul class="list-group">
+    <li class="list-group-item">Employee Name: {{contact.name}}</li>
+    <li class="list-group-item">Employee Date of birth :{{contact.dob}}</li>
+    <li class="list-group-item">Qualification :{{contact.qualification}}</li>
+    <li class="list-group-item">Mobile Number:{{contact.phone}}</li>
+    <li class="list-group-item">Email: {{contact.email}}</li>
+    <li class="list-group-item">House Select: {{houseName}}</li>
+
+
+  </ul>
+        </div>
+        <div class="col-5">
+<!-- images -->
+<img  width="70% " src="{{contact.photo}}" alt="">
+        </div>
+    </div> 
+
+    <a routerLink="/front/home" type="Submit" class="btn btn-danger">Go Back</a>
+    </div>
+    

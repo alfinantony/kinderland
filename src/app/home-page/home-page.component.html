@@ -1,0 +1,74 @@
+<!-- Nav -->
+
+
+<nav class="navbar bg-success ">
+    <div class="container-fluid">
+        <a class="navbar-brand" routerLink="/">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.JuB1KquM9Prch5-51xuGpgHaF-&pid=Api&P=0&h=180" alt="Logo" width="80" height="60" class="d-inline-block align-text">
+          <b style="font-family: cursive; font-weight: 900;" > &nbsp;KINDERLAND</b>  
+          </a>
+          <form class="d-flex" role="search">
+            <input (keyup)="Search($event)" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-info bg-light" type="submit">Search</button>
+          </form>
+    
+    </div>
+  </nav>
+
+
+
+
+
+
+<body background="https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-kindergarten-activity-exhibition-board-background-material-image_156594.jpg">
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1 class="text-center mt-3"> <b> Job Profile</b></h1>
+            <p style="text-align: justify;">Kindergarten assistants are responsible for supporting and assisting kindergarten teachers in the classroom. They may help with lesson planning, assist with classroom management, or provide other support to ensure that students receive a quality education. Kindergarten assistants must be able to work well with children of all ages and temperaments.</p>
+            
+            <a routerLink="/front/home/add" class="btn btn-success" style="float:right"> <i class="fa-solid fa-arrow-up-from-bracket"></i> Apply Now</a>
+        </div>
+    </div> 
+    
+</div>
+
+<!-- <pre>
+    {{allContacts|json}}
+</pre>
+
+<pre>
+    {{heading}}
+</pre> -->
+
+
+<!-- card designing -->
+<br> <br>
+
+<div class="row">
+    <div class="col-4" *ngFor="let contact of allContacts |filter:searchKey:'name'">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-4">
+                        <img width="100%" src="{{contact.photo}}" alt="">
+                    </div>
+                    <div class="col-8">
+                        <ul class="list-group">
+                            <li class="list-group-item">Name: {{contact.name}}
+                                <a routerLink="/front/home/view/{{contact.id}}" class="" style="float: right;"><i class="fa-solid fa-eye text-success"></i></a>
+                            </li>
+                            <li class="list-group-item">Mobile: {{contact.phone}}
+                                <a routerLink="/front/home/update/{{contact.id}}" class="" style="float: right;"><i class="fa-solid fa-user-pen"></i></a>  
+                            </li>
+                            <li class="list-group-item">Email: {{contact.email}}
+                                <a (click)="deleteContact(contact.id)" style="float: right;"><i class="fa-sharp fa-solid fa-trash text-danger"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  </body>
